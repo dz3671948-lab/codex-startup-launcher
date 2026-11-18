@@ -6,7 +6,6 @@
 
 ### 下载与安装
 
-从 GitHub **Releases → Assets** 下载 `Codex-Startup-Launcher.zip`，解压到本地文件夹，然后双击 `安装说明.cmd`。如果还没有 Release，可用 **Code → Download ZIP** 下载仓库。
 
 安装后会在桌面和开始菜单创建 `Codex-Startup-Launcher`。旧的 Codex/ChatGPT 快捷方式会被移动到 `%LOCALAPPDATA%\\CodexStartupLauncher\\hidden-shortcuts`，可恢复，不会删除 Codex 应用。
 
@@ -22,7 +21,6 @@
 
 ### 文件
 
-`Codex-Startup-Launcher.zip` 是下载包；`安装说明.cmd` 安装；`启动 Codex.cmd` 直接运行；`卸载说明.cmd` 卸载并还原；`Launch-Codex.ps1` 负责本地页面和启动 Codex；`codex-startup-screen.html`、`startup.css`、`startup.js` 是页面；两个 SVG 是官方 OpenAI Blossom 资源。
 
 ### 发布到 GitHub
 
@@ -38,13 +36,11 @@ git remote add origin https://github.com/YOUR_NAME/codex-startup-launcher.git
 git push -u origin main
 ```
 
-然后创建 GitHub Release，把 `Codex-Startup-Launcher.zip` 上传到 **Assets**。
 
 ## English Instructions
 
 ### Download and Install
 
-Download `Codex-Startup-Launcher.zip` from **GitHub → Releases → Assets**, extract it locally, and double-click `安装说明.cmd`. If no Release exists, use **Code → Download ZIP**.
 
 The installer creates `Codex-Startup-Launcher` shortcuts on the Desktop and Start Menu. Existing Codex/ChatGPT shortcuts are moved to `%LOCALAPPDATA%\\CodexStartupLauncher\\hidden-shortcuts` so they can be restored. The Codex app is never deleted.
 
@@ -72,4 +68,4 @@ git remote add origin https://github.com/YOUR_NAME/codex-startup-launcher.git
 git push -u origin main
 ```
 
-Create a GitHub Release and upload `Codex-Startup-Launcher.zip` under **Assets** for direct downloads.
+
