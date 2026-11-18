@@ -22,21 +22,6 @@
 ### 文件
 
 
-### 发布到 GitHub
-
-在 GitHub 新建空仓库，把 `YOUR_NAME` 换成用户名后执行：
-
-```powershell
-cd "C:\\Users\\jiakun\\Documents\\Codex\\2026-11-18\\github-dhh-startup-screen\\outputs"
-git init
-git add .
-git commit -m "Add bilingual Codex startup launcher"
-git branch -M main
-git remote add origin https://github.com/YOUR_NAME/codex-startup-launcher.git
-git push -u origin main
-```
-
-
 ## English Instructions
 
 ### Download and Install
@@ -53,5 +38,6 @@ Settings include display name, dark/warm-light theme, interface sounds, and syst
 ### Uninstall and Restore
 
 Double-click `卸载说明.cmd`. It removes launcher shortcuts, restores the original shortcuts, removes `%LOCALAPPDATA%\\CodexStartupLauncher`, and keeps the Codex application installed.
+
 
 
