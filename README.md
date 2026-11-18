@@ -54,18 +54,4 @@ Settings include display name, dark/warm-light theme, interface sounds, and syst
 
 Double-click `卸载说明.cmd`. It removes launcher shortcuts, restores the original shortcuts, removes `%LOCALAPPDATA%\\CodexStartupLauncher`, and keeps the Codex application installed.
 
-### Publish on GitHub
-
-Create an empty GitHub repository and run the following in PowerShell. Replace `YOUR_NAME` with your GitHub username:
-
-```powershell
-cd "C:\\Users\\jiakun\\Documents\\Codex\\2026-11-18\\github-dhh-startup-screen\\outputs"
-git init
-git add .
-git commit -m "Add bilingual Codex startup launcher"
-git branch -M main
-git remote add origin https://github.com/YOUR_NAME/codex-startup-launcher.git
-git push -u origin main
-```
-
 
